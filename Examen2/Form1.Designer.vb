@@ -34,6 +34,7 @@ Partial Class Form1
         Label3 = New Label()
         Label4 = New Label()
         Label5 = New Label()
+        Button5 = New Button()
         SuspendLayout()
         ' 
         ' LinkLabel1
@@ -144,12 +145,22 @@ Partial Class Form1
         Label5.TabIndex = 11
         Label5.Text = "123"
         ' 
+        ' Button5
+        ' 
+        Button5.Location = New Point(337, 231)
+        Button5.Name = "Button5"
+        Button5.Size = New Size(112, 34)
+        Button5.TabIndex = 12
+        Button5.Text = "Acceder"
+        Button5.UseVisualStyleBackColor = True
+        ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.DarkGray
         ClientSize = New Size(800, 450)
+        Controls.Add(Button5)
         Controls.Add(Label5)
         Controls.Add(Label4)
         Controls.Add(Label3)
@@ -180,4 +191,5 @@ Partial Class Form1
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
+    Friend WithEvents Button5 As Button
 End Class
